@@ -1,0 +1,15 @@
+[flake8]
+ignore =
+    W503
+    E402
+exclude =
+    */__init__.py
+    tests/,
+    */migrations/,
+    venv/,
+    env/,
+    income_data/
+per-file-ignores =
+    */settings.py:E501
+max-line-length = 120
+max-complexity = 10
